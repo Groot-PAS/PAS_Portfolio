@@ -4,9 +4,11 @@ Personal portfolio website for **Prakhar Anand Singh** — B.Tech CSE (AIML) stu
 
 Inspired by modern developer portfolios with a code-editor hero panel and smooth scroll animations.
 
-## Live preview
+## Live site
 
-Open `index.html` in your browser, or deploy to [Vercel](https://vercel.com), [Netlify](https://netlify.com), or GitHub Pages.
+**[https://pas-portfolio-seven.vercel.app/](https://pas-portfolio-seven.vercel.app/)**
+
+For local development, open `index.html` in your browser or use a simple static server (see [Getting started](#getting-started)).
 
 ## Features
 
@@ -90,11 +92,18 @@ Place your image as `profile.png` in the project root (same folder as `index.htm
 
 ## Deployment
 
+**Production:** [https://pas-portfolio-seven.vercel.app/](https://pas-portfolio-seven.vercel.app/)
+
+Pushes to the connected `main` branch on GitHub redeploy automatically on Vercel.
+
 ### Vercel
 
 1. Push the project to a GitHub repository.
 2. Import the repo at [vercel.com/new](https://vercel.com/new).
 3. Set the root directory to this folder and deploy (no build command needed).
+4. Production URL example: `https://pas-portfolio-seven.vercel.app/`
+
+> **Profile photo on live site:** Commit `profile.png` to the repo (`git add profile.png`) and push. If it is missing from GitHub, the About section shows a placeholder on Vercel.
 
 ### GitHub Pages
 
@@ -109,6 +118,7 @@ Drag and drop the folder at [app.netlify.com/drop](https://app.netlify.com/drop)
 
 ## Contact
 
+- **Website:** [pas-portfolio-seven.vercel.app](https://pas-portfolio-seven.vercel.app/)
 - **Email:** prakharanand0967@gmail.com
 - **GitHub:** [Groot-PAS](https://github.com/Groot-PAS)
 - **LinkedIn:** [prakharanand-singh](https://www.linkedin.com/in/prakharanand-singh)
